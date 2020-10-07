@@ -12,3 +12,5 @@ It is required a DO account, Personal access tokens and a ssh key (no encrypted)
 update both variables (do_token & pvt_key path)
 `./start -d`
 
+The APT-Lab repo used is https://github.com/Lijantropique/APT-Lab-Terraform.git, which also installs and deploys `Zeek`. If you want to use the original one uncomment line 23 `#git clone https://github.com/DefensiveOrigins/APT-Lab-Terraform.git` and comment line 24.
+
